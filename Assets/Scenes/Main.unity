@@ -289,7 +289,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &363000991
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1108,6 +1108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 363000987}
   grenade: {fileID: 8901823519144276903, guid: 9adc4a63e1d574784beb5f5939743bb6, type: 3}
+  offset: 2
 --- !u!1 &2123826860
 GameObject:
   m_ObjectHideFlags: 0
